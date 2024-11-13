@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // 
+=======
+>>>>>>> 886e38b018bd2ccccea09825d9b14212ff3dda96
 document.addEventListener('DOMContentLoaded', function () {
     var _a, _b;
     var startBtn = document.getElementById('start-btn');

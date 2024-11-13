@@ -1,8 +1,11 @@
 /* /dynamic resume */
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
 }
+=======
+>>>>>>> 886e38b018bd2ccccea09825d9b14212ff3dda96
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -140,8 +143,11 @@ fieldset {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding-right: 30px;
+<<<<<<< HEAD
     padding-left: 10px;
     padding-bottom: 20px;
+=======
+>>>>>>> 886e38b018bd2ccccea09825d9b14212ff3dda96
     background-color: #fafafa;
 }
 
@@ -264,6 +270,7 @@ textarea {
     }
 }
 
+<<<<<<< HEAD
 /* Mobile-specific adjustments */
 @media (max-width: 640px) {
     form {
@@ -301,6 +308,8 @@ textarea {
     }
 }
 
+=======
+>>>>>>> 886e38b018bd2ccccea09825d9b14212ff3dda96
 /* Styling the generated resume */
 #resume-output {
     text-align: left;
@@ -392,6 +401,7 @@ fieldset {
 
 fieldset {
     position: relative;
+<<<<<<< HEAD
 }
 
 
@@ -410,3 +420,6 @@ fieldset {
 
 
 
+=======
+}
+>>>>>>> 886e38b018bd2ccccea09825d9b14212ff3dda96
