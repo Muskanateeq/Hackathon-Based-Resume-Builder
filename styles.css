@@ -1,4 +1,8 @@
 /* /dynamic resume */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -136,6 +140,8 @@ fieldset {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding-right: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
     background-color: #fafafa;
 }
 
@@ -258,6 +264,43 @@ textarea {
     }
 }
 
+/* Mobile-specific adjustments */
+@media (max-width: 640px) {
+    form {
+        grid-template-columns: 1fr; /* Stack input fields in a single column */
+        padding: 0px; /* Add padding to avoid overflow issues */
+        
+    }
+
+    /* Ensure each input field is fully visible */
+    fieldset {
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 0px; /* Increase padding for better tap targets on mobile */
+    }
+
+    #resume-form {
+        padding: 0px;
+        margin-top: 150px;
+    }
+
+    #resume-form h2 {
+        font-size: 1.2rem;
+        padding-top: 30px;
+    }
+
+    #resume-form button {
+        width: 100%; /* Make button full-width on mobile */
+        margin-left: 0;
+        margin-top: 0px; /* Ensure it doesn't overlap with fields */
+    }
+}
+
 /* Styling the generated resume */
 #resume-output {
     text-align: left;
@@ -350,6 +393,8 @@ fieldset {
 fieldset {
     position: relative;
 }
+
+
 
 
 
